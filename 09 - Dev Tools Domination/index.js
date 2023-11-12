@@ -4,6 +4,7 @@ const dogs = [
   ];
   
   function makeGreen() {
+    
     const p = document.querySelector("p");
     p.style.color = "#BADA55";
     p.style.fontSize = "50px";
@@ -23,6 +24,7 @@ const dogs = [
   console.info("Some usefull info");
   // Testing
   console.assert(1 === 2, "That is wrong");
+
   // clearing
   // console.clear();
   // Viewing DOM Elements
